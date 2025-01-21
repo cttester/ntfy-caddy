@@ -5,6 +5,6 @@ cache-file: "/var/cache/ntfy/cache.db"
 behind-proxy: true
 attachment-cache-dir: "/var/cache/ntfy/attachments"
 keepalive-interval: "45s"
-auth-file: "/etc/ntfy/user.db"
+auth-file: "/var/lib/ntfy/user.db"
 auth-default-access: "deny-all"
 #web-root: "disable"
