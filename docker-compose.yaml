@@ -15,6 +15,7 @@ services:
     volumes:
       - ./ntfy/cache:/var/cache/ntfy
       - ./ntfy/config:/etc/ntfy
+      - ./ntfy/auth:/var/lib/ntfy
     expose:
       - "80"
 
